@@ -1,0 +1,57 @@
+
+@media (max-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .second {
+        padding-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .nav-text {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .circle {
+        margin: 50px auto;
+    }
+
+    .part1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .para {
+        padding: 0;
+        font-size: 30px;
+    }
+
+    .about-meeh {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .skills-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
